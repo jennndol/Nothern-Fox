@@ -5,9 +5,9 @@
  * var bulan   = 'Oktober';
  * var tahun   = 1928;
  */
-var tanggal; // assign nilai variabel tanggal disini!
-var bulan; // assign nilai variabel bulan disini! (dengan huruf awal kapital)
-var tahun; // assign nilai variabel tahun disini!
+var tanggal = 8; // assign nilai variabel tanggal disini!
+var bulan = 'Februari'; // assign nilai variabel bulan disini! (dengan huruf awal kapital)
+var tahun = 1992; // assign nilai variabel tahun disini!
 
 var kodeBulan = 0;
 
@@ -39,5 +39,33 @@ switch (bulan) {
 }
 
 //Lanjutkan kode dari sini
-
+var tahunLahir = tahun % 100;
+console.log(tahunLahir);
+var tahunLahirBagi4 = Math.floor(tahun/4);
+console.log(tahunLahirBagi4);
+var jawaban = (tahunLahir + tahunLahirBagi4 + tanggal + kodeBulan) % 7;
+console.log(jawaban);
+var tebakan;
+switch(jawaban) {
+    case 0:   { 
+        tebakan = "Minggu"; break;
+    }
+    case 1:   { 
+        tebakan = "Senin"; break; }
+    case 2:   { 
+        tebakan = "Selasa"; break; 
+    }
+    case 3:   { 
+        tebakan = "Rabu"; break; 
+    }
+    case 4:   { 
+        tebakan = "Kamis"; break; 
+    }
+    case 5:   { 
+        tebakan = "Jumat"; break; 
+    }
+    case 6:   { 
+        tebakan = "Sabtu"; break; 
+    }
+  }
 console.log(tebakan);
