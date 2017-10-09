@@ -40,11 +40,9 @@ switch (bulan) {
 
 //Lanjutkan kode dari sini
 var tahunLahir = tahun % 100;
-console.log(tahunLahir);
 var tahunLahirBagi4 = Math.floor(tahun/4);
-console.log(tahunLahirBagi4);
 var jawaban = (tahunLahir + tahunLahirBagi4 + tanggal + kodeBulan) % 7;
-console.log(jawaban);
+
 var tebakan;
 switch(jawaban) {
     case 0:   { 
