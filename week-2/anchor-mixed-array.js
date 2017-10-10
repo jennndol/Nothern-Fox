@@ -44,7 +44,7 @@ if (angka==01){
 
 console.log(bulan);
 
-tanggal.sort(function(value1, value2) { return Number(value1) < Number(value2) });
+tanggal.sort(function(value1, value2) { return Number(value1) < Number(value2); });
 console.log(tanggal);
 
 console.log(tanggal.join("-")); 
