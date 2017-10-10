@@ -32,7 +32,7 @@ for(i=1; i<=tahunlahir;i++){
     } else if(i%kodeMonster==0){
         console.log('monster menyerang ' + peran + ' ' + nama + '!');
         playerHealth = playerHealth - kodeMonster;
-    } else if(i%umur==0 && i%kodeMonster==0){
+    } else if((i%umur==0) && (i%kodeMonster==0)){
         console.log('Health keduanya bertambah');
         playerHealth = playerHealth + kodeMonster;
         monsterHealth = monsterHealth + umur;
@@ -42,5 +42,5 @@ for(i=1; i<=tahunlahir;i++){
 if (playerHealth>monsterHealth){
     console.log('Selamat, ' + peran + ' ' + nama + ' memenangkan pertarungan!');
 } else{
-    console.log('Sayang sekali, ' + peran + ' ' + nama + ' dikalahkan monster...')
+    console.log('Sayang sekali, ' + peran + ' ' + nama + ' dikalahkan monster...');
 }
