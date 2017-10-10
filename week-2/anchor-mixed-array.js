@@ -11,6 +11,7 @@ console.log(input);
 
 var tanggal = input[3];
 tanggal = tanggal.split("/");
+
 var angka = tanggal[1];
 
 var bulan = '';
