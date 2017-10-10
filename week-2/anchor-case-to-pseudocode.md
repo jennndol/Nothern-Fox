@@ -1,39 +1,51 @@
-Tugas 1
+<!-- Tugas 1
 
-SIMPAN "angka pertama"
-SIMPAN "angka kedua"
-HITUNG "angka pertama" dikalikan dengan "angka kedua"
+Buatlah sebuah pseudocode yang mengambil dua angka, dan menghitung serta menampilkan hasil perkalian dari kedua bilangan tersebut.
+
+hint: Gunakan kata kunci SIMPAN, HITUNG, dan TULISKAN. -->
+
+SIMPAN `angka pertama`
+SIMPAN `angka kedua`
+HITUNG `angka pertama` dikalikan dengan `angka kedua`
 SIMPAN hasil perhitungan sebelumnya
 TULISKAN hasil perhitungan
 
-SAVE "first number"
-SAVE "second number"
-COMPUTE "first number" multiplied by "second number"
+SAVE `first number`
+SAVE `second number`
+COMPUTE `first number` multiplied by `second number`
 SAVE the previous computation result
 WRITE the computation result
 
 ------------------------------------------------------
 
-Tugas 2
+<!-- Tugas 2
 
-SIMPAN "kata"
-IF "kata" sama dengan "Saya Belajar JavaScript!"
-    TULISKAN "Pasti Bisa!"
+Buatlah sebuah pseudocode yang mengambil sebuah kata, dan jika kata yang diambil bertuliskan "Saya Belajar JavaScript!", tampilkan "Pasti Bisa!".
 
-SAVE "word"
-IF "word" is equal to "Saya Belajar JavaScript!"
-    WRITE "Pasti Bisa!"
+hint: Gunakan kata kunci SIMPAN, IF, dan TULISKAN. -->
+
+SIMPAN `kata`
+IF `kata` sama dengan `Saya Belajar JavaScript!`
+    TULISKAN `Pasti Bisa!`
+
+SAVE `word`
+IF `word` is equal to `Saya Belajar JavaScript!`
+    WRITE `Pasti Bisa!`
 
 ------------------------------------------------------
 
-Tugas 3
+<!-- Tugas 3
 
-SIMPAN "angka maksimum"
-ULANGI dari "angka init = 1" dengan penambahan 1 sampai mencapai "angka maksimum"
-    SIMPAN "deret angka" dari angka init yang sisa hasil bagi dengan 3 = 0
-TAMPILKAN "deret angka"
+Buatlah sebuah pseudocode yang mengambil sebuah angka. Tampilkan sebuah deret angka yang habis dibagi 3 dan dimulai dari angka 1. Deret angka akan berhenti sampai deret angka tersebut mencapai angka yang disimpan sebelumnya.
 
-SAVE "maximum number"
-REPEAT from "init number = 1" incremented by 1 until "maximum number"
-    SAVE "number list" from "init number" divided by 3 = 0
-SHOW "number list"
+hint: Gunakan kata kunci SIMPAN, ULANGI, dan TAMPILKAN. -->
+
+SIMPAN `angka maksimum`
+ULANGI setiap pertambahan 1 `index` dari 1 sampai `angka maksimum`
+    SIMPAN `angka` dari angka `index` yang sisa hasil bagi dengan 3 = 0
+    TAMPILKAN `angka`
+
+SAVE `maximum number`
+FOR every addition 1 in `index` from 1 to `maximum number`
+    SAVE `number` from `index` divided by 3 = 0
+    SHOW `number`
