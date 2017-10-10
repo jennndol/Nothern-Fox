@@ -23,7 +23,7 @@ if (nama){
 }
 else {
     peran = 'Kacung';
-}
+};
 
 for(i=1; i<=tahunlahir;i++){
     if (i%umur==0){
@@ -37,10 +37,10 @@ for(i=1; i<=tahunlahir;i++){
         playerHealth = playerHealth + kodeMonster;
         monsterHealth = monsterHealth + umur;
     }
-}
+};
 
 if (playerHealth>monsterHealth){
     console.log('Selamat, ' + peran + ' ' + nama + ' memenangkan pertarungan!');
 } else{
     console.log('Sayang sekali, ' + peran + ' ' + nama + ' dikalahkan monster...');
-}
+};
