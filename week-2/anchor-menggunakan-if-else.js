@@ -1,4 +1,4 @@
-var nama, peran;
+var nama = '', peran = '';
 
 nama = 'C2';
 
@@ -14,5 +14,7 @@ if (nama){
     } else if(nama == 'C3'){
         peran = 'Penyihir';
         console.log("Halo Penyihir " + nama + ", ciptakan keajaiban yang membantu kemenanganmu!");
-    }
-}
+    };
+} else {
+    console.log("Nama tidak boleh kosong\nPilih peranmu untuk memulai game");    
+};    
