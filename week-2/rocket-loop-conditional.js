@@ -1,8 +1,8 @@
 var nama = '', peran = '';
 var tahunlahir = 2000;
 var umur = 2017 - tahunlahir;
-var playerHealth = tahunlahir * Math.random()
-var monsterHealth = tahunlahir * Math.random()
+var playerHealth = tahunlahir * Math.random();
+var monsterHealth = tahunlahir * Math.random();
 var kodeMonster = Math.floor(Math.pow(100, Math.random()));
 
 // nama = 'C1';
@@ -19,11 +19,10 @@ if (nama){
     } else if(nama == 'C3'){
         peran = 'Penyihir';
         console.log("Halo Penyihir " + nama + ", ciptakan keajaiban yang membantu kemenanganmu!");
-    };
-}
-else {
+}} 
+else { 
     peran = 'Kacung';
-};
+}
 
 for(i=1; i<=tahunlahir;i++){
     if (i%umur==0){
@@ -37,10 +36,10 @@ for(i=1; i<=tahunlahir;i++){
         playerHealth = playerHealth + kodeMonster;
         monsterHealth = monsterHealth + umur;
     }
-};
+}
 
 if (playerHealth>monsterHealth){
     console.log('Selamat, ' + peran + ' ' + nama + ' memenangkan pertarungan!');
 } else{
     console.log('Sayang sekali, ' + peran + ' ' + nama + ' dikalahkan monster...');
-};
+}

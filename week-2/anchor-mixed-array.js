@@ -3,7 +3,7 @@ function dataHandling2(input){
     input.splice(1,0, "Roman Alamsyah Elsharawy", "Provinsi Bandar Lampung");
     input.splice(4,1);
     input.splice(4,0, "Pria", "SMA Internasional Metro");
-};
+}
 
 var input = ["0001", "Roman Alamsyah", "Bandar Lampung", "21/05/1989", "Membaca"];
 dataHandling2(input);

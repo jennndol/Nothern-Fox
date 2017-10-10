@@ -14,7 +14,7 @@ for (var index=1; index<=100; index++){
         total = total + index;
     } else {
         total = total - index;
-    };
-};
+    }
+}
 
 console.log("TOTAL: " + total);

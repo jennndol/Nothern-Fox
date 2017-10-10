@@ -7,7 +7,7 @@ for (var num = 1;num <=100 ;num++) {
     else{
         console.log("GENAP");
     }
-};
+}
 
 for (num = 1;num <=100 ;num+=2) {
     if (num%3==0){
@@ -16,7 +16,7 @@ for (num = 1;num <=100 ;num+=2) {
     else{
         console.log(" ");
     }
-};
+}
 
 
 for (num = 1;num <=100 ;num+=5) {
@@ -26,7 +26,7 @@ for (num = 1;num <=100 ;num+=5) {
     else{
         console.log(" ");
     }
-};
+}
 
 for (num = 1;num <=100 ;num+=9) {
     if (num%10==0){
@@ -35,4 +35,4 @@ for (num = 1;num <=100 ;num+=9) {
     else{
         console.log(" ");
     }
-};
+}
