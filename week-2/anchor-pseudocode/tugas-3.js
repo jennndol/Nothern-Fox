@@ -22,8 +22,8 @@ if (tahun%4 == 0){
             console.log(tahun + " tahun adalah tahun kabisat");
         }else{
             console.log(tahun + " adalah bukan tahun kabisat");
-        };
-    };
+        }
+    }
 }else{
     console.log(tahun + " adalah bukan tahun kabisat");
 }
