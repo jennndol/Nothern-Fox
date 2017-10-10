@@ -16,29 +16,29 @@ var angka = tanggal[1];
 
 var bulan = '';
 
-if (angka==01){
+if (angka==='01'){
     bulan = 'Januari';
-} else if(angka==02){
+} else if(angka==='02'){
     bulan = 'Februari';
-} else if(angka==03){
+} else if(angka==='03'){
     bulan = 'Maret';
-} else if(angka==04){
+} else if(angka==='04'){
     bulan = 'April';
-} else if(angka==05){
+} else if(angka==='05'){
     bulan = 'Mei';
-} else if(angka==06){
+} else if(angka==='06'){
     bulan = 'Juni';
-} else if(angka==07){
+} else if(angka==='07'){
     bulan = 'Juli';
-} else if(angka==08){
+} else if(angka==='08'){
     bulan = 'Agustus';
-} else if(angka==09){
+} else if(angka==='09'){
     bulan = 'September';
-} else if(angka==10){
+} else if(angka==='10'){
     bulan = 'Oktober';
-} else if(angka==11){
+} else if(angka==='11'){
     bulan = 'November';
-} else if(angka==12){
+} else if(angka==='12'){
     bulan = 'Desember';
 }
 
