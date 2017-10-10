@@ -1,11 +1,11 @@
-var nama, peran;
-var tahunlahir = 1900;
+var nama = '', peran = '';
+var tahunlahir = 2000;
 var umur = 2017 - tahunlahir;
 var playerHealth = tahunlahir * Math.random()
 var monsterHealth = tahunlahir * Math.random()
 var kodeMonster = Math.floor(Math.pow(100, Math.random()));
 
-nama = 'C2';
+// nama = 'C1';
 
 console.log("Selamat datang di dunia Proxytia, " + nama);
 
