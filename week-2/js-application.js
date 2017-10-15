@@ -32,7 +32,7 @@ rl.question('\nPlease enter your name : ', function(args){
                 randomNumbers.push(getRandom());
 
                 // Match the guessNumbers and randomNumbers and save into rightNumbers if there is right number
-                for(var i=0; i<guessNumbers.length; i++){
+                for(var i=0; i<=guessNumbers.length-1; i++){
                     if(guessNumbers[i] == randomNumbers[i]){
                         rightNumbers.push(guessNumbers[i]);
                     }

@@ -27,11 +27,12 @@ hint: Gunakan kata kunci SIMPAN, IF, dan TULISKAN. -->
 SIMPAN `kata`
 IF `kata` sama dengan `Saya Belajar JavaScript!`
     TULISKAN `Pasti Bisa!`
+END IF
 
 SAVE `word`
 IF `word` is equal to `Saya Belajar JavaScript!`
     WRITE `Pasti Bisa!`
-
+END IF
 ------------------------------------------------------
 
 <!-- Tugas 3
@@ -44,8 +45,10 @@ SIMPAN `angka maksimum`
 ULANGI setiap pertambahan 1 `index` dari 1 sampai `angka maksimum`
     SIMPAN `angka` dari angka `index` yang sisa hasil bagi dengan 3 = 0
     TAMPILKAN `angka`
+END ULANGI
 
 SAVE `maximum number`
 FOR every addition 1 in `index` from 1 to `maximum number`
     SAVE `number` from `index` divided by 3 = 0
     SHOW `number`
+END FOR
