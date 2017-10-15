@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/week-2/anchor-belajar-variabel.js"
+            "program": "${workspaceFolder}/week-2/js-application/index.html"
         }
     ]
 }
