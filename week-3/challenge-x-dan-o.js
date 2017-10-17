@@ -1,5 +1,12 @@
 function xo(str) {
-    // you can only write your code here!
+    o = str.split('x');
+    x = str.split('o');
+    if(o.length === x.length){
+        return true;
+    }
+    else{
+        return false;
+    }
 }
   
 // TEST CASES
