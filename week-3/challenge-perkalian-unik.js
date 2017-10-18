@@ -6,8 +6,8 @@ function perkalianUnik(arr) {
         multiplication = multiplication * arr[i]; 
     }
         
-    for (i = 0; i < arr.length; i++){
-        result.push(multiplication / arr[i]);
+    for (var j = 0; j < arr.length; j++){
+        result.push(multiplication / arr[j]);
     }
 
     return result;
