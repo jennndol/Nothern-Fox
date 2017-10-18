@@ -1,7 +1,7 @@
 function perpangkatanDua(str) {
-    var c = Math.log(str)/Math.log(2);
-    if (c===Math.floor(c)){
-        return c;
+    var result = Math.log(str)/Math.log(2);
+    if (result===Math.floor(result)){
+        return result;
     } else {
         return -1;
     }
