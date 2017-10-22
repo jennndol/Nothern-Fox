@@ -1,0 +1,19 @@
+{
+  "name": "northern-fox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jennndol/northern-fox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jennndol/northern-fox/issues"
+  },
+  "homepage": "https://github.com/jennndol/northern-fox#readme"
+}
