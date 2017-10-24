@@ -1,5 +1,24 @@
 function fpb(angka1, angka2) {
-    // you can only write your code here!
+  var factors1 = [], factors2 = [], commonValues = [];
+  for(i=1; i<=angka1; i++){
+    if(angka1%i==0){
+        factors1.push(i);
+    }
+  }
+
+  for(j=1; j<=angka2; j++){
+    if(angka2%j==0){
+        factors2.push(j);
+    }
+  }
+
+  commonValues = factors1.filter(function(value) { 
+    return factors2.indexOf(value) > -1;
+  });
+
+  return (commonValues.reduce(function(a, b){
+    return Math.max(a,b);
+  }));
 }
   
   // TEST CASES
