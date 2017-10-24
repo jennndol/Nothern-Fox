@@ -1,12 +1,12 @@
 function fpb(angka1, angka2) {
   var factors1 = [], factors2 = [], commonValues = [];
-  for(i=1; i<=angka1; i++){
+  for(var i=1; i<=angka1; i++){
     if(angka1%i==0){
         factors1.push(i);
     }
   }
 
-  for(j=1; j<=angka2; j++){
+  for(var j=1; j<=angka2; j++){
     if(angka2%j==0){
         factors2.push(j);
     }

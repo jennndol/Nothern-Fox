@@ -1,6 +1,6 @@
 function cariMean(arr) {
     var total = 0;
-    for(i=0; i<arr.length; i++){
+    for(var i=0; i<arr.length; i++){
         total = total + arr[i];
     }
     return Math.round(total/arr.length);
