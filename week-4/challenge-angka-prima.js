@@ -1,10 +1,12 @@
 function angkaPrima(angka) {
     var dividers = [];
-    for(i=2; i<=angka; i++){
-        if(angka%i==0){
+
+    for(var i=2; i<=angka; i++){
+        if(angka % i === 0){
             dividers.push(i);
         }
     }
+
     return(dividers.length === 1);
   }
   

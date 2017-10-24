@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jennndol/northern-fox/issues"
   },
-  "homepage": "https://github.com/jennndol/northern-fox#readme"
+  "homepage": "https://github.com/jennndol/northern-fox#readme",
+  "dependencies": {
+    "jscs": "^3.0.7"
+  }
 }
