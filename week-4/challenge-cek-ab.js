@@ -1,6 +1,6 @@
 function checkAB(num) {
     var temp = [];
-    for(i=0; i<num.length;i++){
+    for(var i=0; i<num.length;i++){
         if(num[i]=='a' || num[i]=='b'){
             if((num[i]=='a') && (num[i+3+1]=='b')){
                 temp.push('isFound');
