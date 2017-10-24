@@ -7,8 +7,7 @@ function digitPerkalianMinimum(angka) {
             tempNumbers.push(lengthOfChars);
         }
     }
-    tempNumbers.sort()
-    return tempNumbers[0];
+    return tempNumbers.sort()[0];
 }
 
 // TEST CASES
