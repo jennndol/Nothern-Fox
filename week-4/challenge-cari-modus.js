@@ -9,7 +9,7 @@ function cariModus(arr) {
             }   
         }
     }
-
+    
     if(duplicateNumbers.length === 0 || duplicateNumbers.length > 2){
         return -1;
     } else if(duplicateNumbers.length <= 2){
