@@ -24,17 +24,12 @@ function hitungHuruf(kata) {
         counting = 0;
         chars = '';
     }
-    // return separatedWords[0];
+    return arrChars;
 }
 
 // TEST CASES
 console.log(hitungHuruf('Today, is the greatest day ever')); // greatest
-// console.log(hitungHuruf('I am a passionate developer')); // passionate
-// console.log(hitungHuruf('aku adalah anak gembala')); // adalah
-// console.log(hitungHuruf('rajin pangkal kaya')); // pangkal
-// console.log(hitungHuruf('mengayuh perahu di danau')); // danau
-
-
-// if(arr2.indexOf("14") == -1){
-//     arr3.push("14");
-//   }
+console.log(hitungHuruf('I am a passionate developer')); // passionate
+console.log(hitungHuruf('aku adalah anak gembala')); // adalah
+console.log(hitungHuruf('rajin pangkal kaya')); // pangkal
+console.log(hitungHuruf('mengayuh perahu di danau')); // danau
