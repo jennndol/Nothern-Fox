@@ -1,12 +1,12 @@
 function totalDigitRekursif(angka) {
     var strAngka = String(angka);
-    if(strAngka.length < 2){
+    if(strAngka.length === 1){
         return angka;
     }
     else {
-        var firstNumber = Number(strAngka[0]);
-        var leftNumbers = Number(strAngka.slice(1));
-        return firstNumber + totalDigitRekursif(leftNumbers);
+        var leftNumber = Number(strAngka[0]);
+        var rightNumbers = Number(strAngka.slice(1));
+        return leftNumber + totalDigitRekursif(rightNumbers);
     }
 }
 
