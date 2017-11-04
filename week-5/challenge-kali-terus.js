@@ -2,9 +2,9 @@ function kaliTerusRekursif(angka) {
     if (String(angka).length === 1){
         return angka;
     } else {
-        var firstNumber = Math.floor(angka / 10);
-        var secondNumber = angka % 10;
-        return kaliTerusRekursif(secondNumber * kaliTerusRekursif(firstNumber));
+        var leftNumbers = Math.floor(angka / 10);
+        var rightNumber = angka % 10;
+        return kaliTerusRekursif(rightNumber * kaliTerusRekursif(leftNumbers));
     }
 }
 
