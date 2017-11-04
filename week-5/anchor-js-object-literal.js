@@ -1,6 +1,6 @@
 var student = {
     name: 'Alex',
-    age: 13,
+    age: 17,
     dateOfBirth: '18-08-2000',
     gender:'Male',
     studentID: 101010,
