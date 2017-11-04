@@ -1,11 +1,11 @@
 function totalDigitRekursif(angka) {
-    strAngka = String(angka);
+    var strAngka = String(angka);
     if(strAngka.length < 2){
         return angka;
     }
     else {
-        firstNumber = Number(strAngka[0]);
-        leftNumbers = Number(strAngka.slice(1));
+        var firstNumber = Number(strAngka[0]);
+        var leftNumbers = Number(strAngka.slice(1));
         return firstNumber + totalDigitRekursif(leftNumbers);
     }
 }
