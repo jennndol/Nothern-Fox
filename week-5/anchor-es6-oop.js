@@ -42,10 +42,10 @@ class Student{
     }
 }
 
-var alex = new Student('Alex', 13,'13-03-13', 'Male', '101010', 'Soccer' );
+var alex = new Student('Alex', 4,'13-03-2013', 'Male', '101010', 'Soccer' );
 
 alex.setName('Alessa');
-alex.setAge(18);
+alex.setAge(5);
 alex.setDateOfBirth(12-02-2012);
 alex.setGender('Female');
 alex.addHobby('Cooking');
