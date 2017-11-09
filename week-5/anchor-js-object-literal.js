@@ -29,9 +29,9 @@ var studentObj = {
 
 console.log(studentObj);
 
-studentObj.setName('Luthfi');
-studentObj.setAge(25);
-studentObj.setDateOfBirth('8 Februari 1992');
+studentObj.setName('John Doe');
+studentObj.setAge(17);
+studentObj.setDateOfBirth('11 Februari 2000');
 studentObj.setGender('MALE');
 studentObj.removeHobby('Soccer');
 console.log(studentObj.getData());
