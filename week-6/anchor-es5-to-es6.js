@@ -20,15 +20,15 @@ console.log('area with 21 radius: ' + area21 + ', and area with 7 radius: ' + ar
  * Tugas 2
  */
 
-const multiply = function (num1, num2) {
+const multiply = (num1, num2) => {
     return num1 * num2;
 }
 
-const divide = function (num1, num2) {
+const divide = (num1, num2) => {
     return num1 / num2;
 }
 
-const doubleMe = function (num) {
+const doubleMe = (num) => {
     return num * 2;
 }
 
