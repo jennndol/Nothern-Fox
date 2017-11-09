@@ -5,10 +5,10 @@
 
 var transformArrToLowerCase = arr => {
     // Ubah setiap element array menjadi lowercase! 
-    let newArr = arr.map((isiArray) => {
+    let result = arr.map((isiArray) => {
         return isiArray.toLowerCase();
     })
-    return newArr;
+    return result;
 };
 
 console.log(transformArrToLowerCase(['BUDI', 'MArNi', 'mukIDi'])); // ['budi', 'marni', 'mukidi']
@@ -35,5 +35,9 @@ console.log(filterArrUnder10([1, 5, 12, 15, 20])); // [12, 15, 20]
 
 var reduceFindMaximum = arr => {
     // kembalikan sebuah nilai yang mengandung angka terbesar dengan reduce!
+    let result = arr.reduce((a, b) => {
+        return Math.max(a, b);
+    })
+    return result;
 }
 console.log(reduceFindMaximum([5, 1, 7, 6, 9])); // 9
